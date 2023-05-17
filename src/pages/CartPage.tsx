@@ -15,11 +15,10 @@ const CartPage = () => {
         acc += c.product.price * c.count;
         return acc;
     }, 0);
-
+    // deploy
     useEffect(() => {
         dispatch(loadFromStorage());
     }, []);
-
     return (
         <div style={{
             flexGrow: 1,
