@@ -1,0 +1,17 @@
+@use "src/scss/abstracts" as a;
+
+.category-section {
+  margin-bottom: 20px;
+
+  &__title {
+    font-size: 20px;
+    font-weight: 600;
+    color: a.$gray;
+    margin-bottom: 20px;
+  }
+
+  &__list {
+    display: grid;
+    row-gap: 20px;
+  }
+}

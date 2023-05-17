@@ -1,0 +1,17 @@
+.header {
+  align-items: center;
+  margin: 20px 0;
+
+  &__title {
+    font-weight: 700;
+    font-size: 25px;
+  }
+
+  &__buttons > a {
+    display: block;
+  }
+
+  &__buttons > * + * {
+    margin-left: 30px;
+  }
+}

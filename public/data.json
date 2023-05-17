@@ -1,0 +1,35 @@
+[
+  {
+    "id": 0,
+    "img": "img0.png",
+    "title": "Apple BYZ S852I",
+    "category": "Наушники",
+    "price": 2927,
+    "prevPrice": 3527,
+    "rate": 4.7
+  },
+  {
+    "id": 1,
+    "img": "img1.png",
+    "title": "Apple EarPods",
+    "category": "Наушники",
+    "price": 2327,
+    "rate": 4.5
+  },
+  {
+    "id": 6,
+    "img": "img6.png",
+    "title": "Apple AirPods",
+    "category": "Беспроводные наушники",
+    "price": 9527,
+    "rate": 4.7
+  },
+  {
+    "id": 7,
+    "img": "img7.png",
+    "title": "GERLAX GH-04",
+    "category": "Беспроводные наушники",
+    "price": 6527,
+    "rate": 4.7
+  }
+]

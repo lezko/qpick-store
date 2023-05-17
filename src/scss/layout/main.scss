@@ -1,0 +1,30 @@
+@media (min-width: 540px) {
+  .category-section {
+    &__list {
+      grid-template-columns: 1fr 1fr;
+      column-gap: 20px;
+    }
+  }
+  .footer {
+    grid-template-columns: 1fr 1fr;
+    
+  }
+}
+
+@media (min-width: 1000px) {
+  .category-section {
+    &__list {
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 30px;
+      row-gap: 30px;
+    }
+  }
+  .footer {
+    align-items: stretch;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: left;
+    &__lang-bar {
+      justify-content: flex-start;
+    }
+  }
+}

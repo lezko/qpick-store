@@ -1,0 +1,23 @@
+@use 'src/scss/abstracts' as a;
+
+.icon-with-count {
+  position: relative;
+  width: 20px;
+  height: 20px;
+
+  &__count {
+    position: absolute;
+    top: -40%;
+    right: -40%;
+
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: a.$golden;
+  }
+}

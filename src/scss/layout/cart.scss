@@ -1,0 +1,19 @@
+@media (min-width: 540px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .grid-container {
+    grid-template-columns: 2fr 1fr;
+    column-gap: 100px;
+    .final-cost, .submit-btn {
+      max-width: 400px;
+    }
+    .final-cost-parent {
+      //justify-self: end;
+    }
+  }
+}

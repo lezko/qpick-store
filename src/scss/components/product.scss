@@ -1,0 +1,52 @@
+@use "src/scss/abstracts" as a;
+
+.product {
+  border-radius: 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding: 20px;
+
+  &__image {
+    display: block;
+    margin: 0 auto 30px;
+  }
+
+  &__title {
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  &__price {
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 25px;
+  }
+
+  &__current-price {
+    color: a.$golden;
+    font-size: 17px;
+  }
+
+  &__prev-price {
+    text-decoration: line-through;
+    position: absolute;
+    color: a.$light-golden;
+    font-size: 13px;
+    white-space: nowrap;
+    right: 0;
+    bottom: -1rem;
+  }
+  &__rate {
+    display: flex;
+    align-items: center;
+    color: a.$gray;
+    font-size: 17px;
+    font-weight: 600;
+
+    & > * + * {margin-left: 5px}
+  }
+  &__button {
+    font-size: 17px;
+    font-weight: 600;
+  }
+}
